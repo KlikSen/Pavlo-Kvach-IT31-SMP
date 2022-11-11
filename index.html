@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <meta charset="utf-8">  
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="header-body">
+          <div class="header-burger">
+            <span></span>
+          </div>
+          <nav class="header-menu">
+            <ul class="header-list">
+              <li class="header-link"><a href="#main">Головна</a></li>
+              <li class="header-link"><a href="#prices">Прайс</a></li>
+              <li class="header-link"><a href="#about">Про нас</a></li>
+              <li class="header-link"><a href="#order">Бронювання</a></li>
+              <li class="header-link"><a href="#contacts">Контакти</a></li>
+              <div class="language">
+                <li class="header-link"><a href="">UA</a></li>
+                <li class="header-link"><a href="">EN</a></li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  <div class="first-box" id="main">
+    <span></span>
+    <h1>Banya — свято душі та тіла</h1>
+  </div>
+  <div class="card-box" id="prices">
+    <div class="card">
+      <div class="h3"><h3>Чан</h3></div>
+      <img src="img/chan.jpg">
+      <div class="price-block">
+        <div>
+        <p class="price">500</p>
+        <p class="UpH">грн / година</p>
+      </div>
+      <div class="button"><a href="#order">Забронювати</a></div>
+    </div>
+    </div>
+    <div class="card">
+      <div class="h3"><h3>Фінська баня</h3></div>
+      <img src="img/ban.jpg">
+      <div class="price-block">
+        <div>
+        <p class="price">350</p>
+        <p class="UpH">грн / година</p>
+      </div>
+      <div class="button"><a href="#order">Забронювати</a></div>
+    </div>
+    </div>
+    <div class="card">
+      <div class="h3"><h3>Хамам</h3></div>
+      <img src="img/haman.jpg">
+      <div class="price-block">
+        <div>
+        <p class="price">400</p>
+        <p class="UpH">грн / година</p>
+      </div>
+      <div class="button"><a href="#order">Забронювати</a></div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div class="about-box" id="about">
+    <div class="about">
+      <h2>ПРО НАС</h2>
+      <p>«BANYA» – це банний комплекс де Ви можете, у будь-який зручний час розслабитись, 
+        зняти стрес та оздоровитись. Адже комплекс працює 24/7. Для відвідувачів банного 
+        комплексу передбачена безкоштовна стоянка. Ми цінуємо кожного клієнта і готові надати 
+        Вам сервіс високого класу, від якого у Вас залишаться тільки приємні враження.  І вже наступного 
+        разу Ви знову захочете повернутися до нас, тому що тут відпочивають тілом та душею.</p>
+    </div>
+  </div>
+  <form class="order" id="order">
+    <div class="two-lines">
+      <div class="input">
+        <h3>Оберіть сауну</h3>
+        <select name="sauna">
+          <option value="Chan">Чан</option>
+          <option value="FinSauna">Фінська баня</option>
+          <option value="Hamam">Хамам</option>
+        </select>
+      </div>
+      <div class="input time-input">
+        <h3>Дата / Час</h3>
+        <div class="date-time">
+        <input type="date" name="">
+        <input type="time" name="">
+        <input type="time" name="">
+      </div>
+      </div>
+    </div>
+    <div class="two-lines two-lines-simple">
+      <div class="input">
+        <h3>Ваше ім’я</h3>
+        <input type="text" name="">
+      </div>
+      <div class="input">
+        <h3>Телефон</h3>
+        <input type="text" name="">
+      </div>
+    </div>
+    <button type="submit">Забронювати</button>
+  </form>
+  <footer id="contacts">
+    <div class="info">
+      <div class="contacts">
+        <h3>Зв'яжіться з нами</h3>
+        <div>
+          <img src="img/phone.svg">
+          <p> +380938595503</p>
+        </div>
+        <div>
+          <img src="img/envelope-alt.svg">
+          <p> BanyaUA@gmail.com</p>
+        </div>
+        <div>
+          <img src="img/map-marker.svg">
+          <p> м. Луцьк вул. Кутузова 38</p>
+        </div>
+      </div>
+      <div class="contacts">
+        <h3>Графік роботи</h3>
+        <div>
+          <img src="img/clock-eight.svg">
+          <p class="time"> 00:00 - 24:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="messangers">
+      <a href="">
+        <img src="img/whatsapp.svg">
+      </a>
+      <a href="">
+        <img src="img/facebook-f.svg">
+      </a>
+      <a href="">
+        <img src="img/instagram.svg">
+      </a>
+      <a href="">
+        <img src="img/telegram-alt.svg">
+      </a>
+    </div>
+  </footer>
+<!-- <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script> -->
+<!-- <script src="js/jquery-3.6.1.min.js"></script> -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
